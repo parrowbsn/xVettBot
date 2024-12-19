@@ -29,8 +29,8 @@ const supportedFileTypes = [
     "video/webm"
 ];
 
-/** Max File Size is 100 MB */
-const MAX_FILE_SIZE = 100 * 1024 * 1024;
+/** Max File Size is 300 MB */
+const MAX_FILE_SIZE = 300 * 1024 * 1024;
 
 export default bot;
 export { supportedFileTypes, MAX_FILE_SIZE, KContext, timeRegex };
